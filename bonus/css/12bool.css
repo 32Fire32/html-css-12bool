@@ -36,8 +36,8 @@
 
 /* COLS */
 
-.col-jolly {
-    flex-grow: 1;
+[class*="col-"] {
+    flex: 0 0 auto;
 }
 
 .col-1 {
@@ -139,9 +139,21 @@
 .container {
     max-width: 75rem;
     margin: auto;
+    padding: 10px;
 }
+
+.text-center {
+    text-align: center;
+}
+
+/* FLEX */
 
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
+.space-between {
+    justify-content: space-between;
+}
+

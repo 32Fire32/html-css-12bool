@@ -1,0 +1,29 @@
+@import url(12bool.css);
+@import url(12bool-responsive.css);
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.col {
+    border: 1px dotted gray;
+    padding: 10px;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid;
+    color: blue;
+}
+
+.text-center {
+    background-color: darkcyan;
+    color: white;
+    padding: 0 20px;
+}
