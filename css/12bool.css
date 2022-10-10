@@ -112,6 +112,11 @@
 
 /* UTILITIES */
 
+.container {
+    max-width: 75rem;
+    margin: auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
